@@ -1,0 +1,24 @@
+{% extends 'bases/base.html' %}
+{% block title %}Respuesta API{% endblock %} 
+{% block content %}
+<h1>
+  Lista de Usuarios de una API
+  <hr />
+</h1>
+
+{% if miDataUsers %}
+<pre>{{ miDataUsers | tojson(indent=2) }}</pre>
+<ul class="user-list">
+  {% for user in miDataUsers %}
+  <li class="user-item">
+    <img src="{{ user.avatar }}" class="user-avatar" />
+    <div class="user-details">
+      <p class="user-details__name">Nombre: {{ user.first_name }}</p>
+      <p class="user-details__email">Email: {{ user.email }}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No se encontraron usuarios.</p>
+{% endif %} {% endblock %}

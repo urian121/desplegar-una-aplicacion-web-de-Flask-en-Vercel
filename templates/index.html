@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deploy Flask con Vercel</title>
-</head>
-<body>
-    <h1>¡Hola, Flask!</h1>
-    <p>Mi primer deploy con Vercel usando Flask</p>
-    
-</body>
-</html>
+{% extends 'bases/base.html' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+        <h1 class="text-center fw-bold">¡Hola, Flask!</h1>
+          <p class="text-center">Mi primer deploy con Vercel usando Flask</p>
+          <p class="text-center mt-5">
+            <img class="img-fluid" src="{{ url_for('static', filename='imgs/logo.webp') }}" alt="logo">
+          </p>
+{% endblock %}
