@@ -1,5 +1,5 @@
 
-# Cómo desplegar una aplicación Python/Flask en Vercel 🚀
+# Desplegar una aplicación Python/Flask en Vercel 🚀
 
 ## Descripción del Proyecto
 
