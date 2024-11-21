@@ -73,32 +73,6 @@ Configura cómo se gestionan las solicitudes entrantes.
 2. **Crear el archivo `vercel.json`**  
 El archivo `vercel.json` debe estar ubicado en la raíz del proyecto. Este archivo es necesario para la configuración del despliegue en Vercel. Asegúrate de que su estructura sea similar a la configuración JSON que se muestra en la parte superior de este README. Aquí es donde se define el comportamiento de tu aplicación en Vercel, como las rutas y el entorno de ejecución.
 
-
-   ```bash
-   npm install -g vercel
-   ```
-
-3. **Iniciar sesión en Vercel**  
-   Ejecuta:
-
-   ```bash
-   vercel login
-   ```
-
-4. **Desplegar tu aplicación**  
-   Desde el directorio de tu proyecto, ejecuta:
-
-   ```bash
-   vercel
-   ```
-
-5. **Configurar Variables de Entorno**  
-   Si tu aplicación las necesita, configúralas desde el panel de control de Vercel o con la CLI:
-
-   ```bash
-   vercel env add VARIABLE_NAME valor
-   ```
-
 ---
 
 ## Consejos Finales
