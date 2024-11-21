@@ -7,9 +7,10 @@ Esta guía práctica te mostrará cómo desplegar una aplicación web desarrolla
 
 - Configurar el archivo principal de tu aplicación.
 - Crear el archivo `vercel.json` necesario para el despliegue.
-- Utilizar la CLI de Vercel para llevar tu proyecto a producción.
 
-Ideal tanto para principiantes como para desarrolladores experimentados que buscan una solución rápida y eficiente para hospedar aplicaciones Flask. ¡Pon tu aplicación en línea en minutos! 🚀
+Ideal tanto para principiantes como para desarrolladores experimentados que buscan una solución rápida y eficiente para hospedar aplicaciones Flask.
+
+¡Pon tu aplicación en línea en minutos! 🚀
 
 ---
 
