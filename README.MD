@@ -64,14 +64,15 @@ Configura cómo se gestionan las solicitudes entrantes.
 ## Pasos para el Despliegue
 
 1. **Crear el archivo `requirements.txt`**  
-   Incluye todas las dependencias necesarias de tu aplicación ejecutando:
+    Este archivo contiene todas las dependencias necesarias para tu aplicación. Para generarlo, ejecuta el siguiente comando:
 
    ```bash
    pip freeze > requirements.txt
    ```
 
-2. **Instalar la CLI de Vercel**  
-   Si aún no la tienes, instálala con:
+2. **Crear el archivo `vercel.json`**  
+El archivo `vercel.json` debe estar ubicado en la raíz del proyecto. Este archivo es necesario para la configuración del despliegue en Vercel. Asegúrate de que su estructura sea similar a la configuración JSON que se muestra en la parte superior de este README. Aquí es donde se define el comportamiento de tu aplicación en Vercel, como las rutas y el entorno de ejecución.
+
 
    ```bash
    npm install -g vercel
@@ -105,6 +106,7 @@ Configura cómo se gestionan las solicitudes entrantes.
 - Asegúrate de que tu archivo `requirements.txt` incluya todas las dependencias necesarias.
 - Verifica que tus dependencias sean compatibles con la versión de Python soportada por Vercel.
 - Prueba tu aplicación localmente antes de desplegarla.
+- Si tu aplicación cuenta con **Variables de Entorno**, las puedes configurar desde el panel de control de Vercel.
 
 🚀 **¡Feliz despliegue!**
 
