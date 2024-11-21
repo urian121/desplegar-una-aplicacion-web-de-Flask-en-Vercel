@@ -10,8 +10,6 @@ Esta guía práctica te mostrará cómo desplegar una aplicación web desarrolla
 
 Ideal tanto para principiantes como para desarrolladores experimentados que buscan una solución rápida y eficiente para hospedar aplicaciones Flask.
 
-¡Pon tu aplicación en línea en minutos! 🚀
-
 ---
 
 ## Resultado Final
