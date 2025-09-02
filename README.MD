@@ -8,13 +8,9 @@ Esta guía práctica te mostrará cómo desplegar una aplicación web desarrolla
 
 Ideal tanto para principiantes como para desarrolladores experimentados que buscan una solución rápida y eficiente para hospedar aplicaciones Flask.
 
----
-
-## Resultado Final
 
 ![Resultado Final](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/deploy-web-con-Flask-en-vercel.png)
 
----
 
 ## Explicación del archivo `vercel.json`
 
