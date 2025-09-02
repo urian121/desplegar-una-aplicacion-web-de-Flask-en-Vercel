@@ -1,8 +1,6 @@
 
 # Desplegar una aplicación Python/Flask en Vercel 🚀
 
-## Descripción del Proyecto
-
 Esta guía práctica te mostrará cómo desplegar una aplicación web desarrollada con **Python** y **Flask** en **Vercel**. Aprenderás a:
 
 - Configurar el archivo principal de tu aplicación.
